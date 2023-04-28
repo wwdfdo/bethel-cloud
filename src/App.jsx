@@ -2,6 +2,7 @@ import "./App.css";
 import BethelCloud from "./components/BethelCloud/BethelCloud";
 import BethelLeftSideBar from "./components/BethelLeftSideBar/BethelLeftSideBar";
 import BethelMainDashBoard from "./components/BethelMainDashBoard/BethelMainDashBoard";
+import BethelRightSideBar from "./components/BethelRightSideBar/BethelRightSideBar";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BethelLeftSideBar />
       <BethelCloud />
       <BethelMainDashBoard />
+      <BethelRightSideBar />
     </div>
   );
 }

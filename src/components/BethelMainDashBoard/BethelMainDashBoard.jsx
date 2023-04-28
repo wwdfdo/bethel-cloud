@@ -263,7 +263,7 @@ const BethelMainDashBoard = () => {
               <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
                 Learn Animation
               </p>
-              <p>Ali Husni</p>
+              <p className="dbmb-file-sec-small-text">Ali Husni</p>
             </div>
           </div>
           <div className=" dbmb-file-w-15 ">34MB </div>
@@ -281,7 +281,7 @@ const BethelMainDashBoard = () => {
               <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
                 Learn Animation
               </p>
-              <p>Ali Husni</p>
+              <p className="dbmb-file-sec-small-text">Ali Husni</p>
             </div>
           </div>
           <div className=" dbmb-file-w-15 ">34MB </div>
@@ -299,7 +299,7 @@ const BethelMainDashBoard = () => {
               <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
                 Learn Animation
               </p>
-              <p>Ali Husni</p>
+              <p className="dbmb-file-sec-small-text">Ali Husni</p>
             </div>
           </div>
           <div className=" dbmb-file-w-15 ">34MB </div>
