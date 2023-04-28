@@ -82,7 +82,7 @@ const BethelMainDashBoard = () => {
               </div>
             </div>
           </div>
-          <h4>Documents</h4>
+          <span>Documents</span>
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
@@ -112,7 +112,7 @@ const BethelMainDashBoard = () => {
               </div>
             </div>
           </div>
-          <h4>Documents</h4>
+          <span>Documents</span>
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
@@ -142,7 +142,7 @@ const BethelMainDashBoard = () => {
               </div>
             </div>
           </div>
-          <h4>Documents</h4>
+          <span>Documents</span>
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
@@ -161,148 +161,150 @@ const BethelMainDashBoard = () => {
         </div>
       </div>
       <div className=" bmdb-seemore-sec">
-        <div className="bmdb-subt-between  ">
+        <div className="dbmb-subt-between  ">
           <div className="bmdb-subt-text ">Folders</div>
-          <div className="text-[#ff8130] underline flex items-center w-[4.2rem] py-1 rounded-md justify-center font-semibold text-sm gap-2  ">
-            See More
-          </div>
+          <div className="dbmb-seemore-text  ">See More</div>
         </div>
       </div>
-      <div className="flex gap-2 flex-wrap items-center justify-center px-12">
-        <div className="bg-[#e1e9ff] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
-          <div className="flex justify-between items-center px-5">
-            <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
+      <div className=" dbmb-small-card-main-wrapper">
+        <div className="dbmb-small-card-container-bg4  dbmb-small-card-container">
+          <div className="dbmb-small-card-icon-container">
+            <div className=" dbmb-small-card-icon">
               <AiOutlineFolder size={12} />
             </div>
             <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="text-[1.2rem] font-bold bmdb-dotmore-icon-typo ">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-[.7rem] font-semibold px-5">Documents</div>
+          <span className="text-[.7rem] font-semibold px-5">Documents</span>
           <p>640 Files</p>
         </div>
-        <div className="bg-[#e6e0f6] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
-          <div className="flex justify-between items-center px-5">
-            <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
+        <div className="dbmb-small-card-container-bg1  dbmb-small-card-container">
+          <div className="dbmb-small-card-icon-container">
+            <div className=" dbmb-small-card-icon">
               <AiOutlineFolder size={12} />
             </div>
             <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="text-[1.2rem] font-bold bmdb-dotmore-icon-typo ">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-[.7rem] font-semibold px-5">Documents</div>
+          <span className="text-[.7rem] font-semibold px-5">Documents</span>
           <p>640 Files</p>
         </div>
-        <div className="bg-[#ffe0e8] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
-          <div className="flex justify-between items-center px-5">
-            <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
+        <div className="dbmb-small-card-container-bg2  dbmb-small-card-container">
+          <div className="dbmb-small-card-icon-container">
+            <div className=" dbmb-small-card-icon">
               <AiOutlineFolder size={12} />
             </div>
             <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="text-[1.2rem] font-bold bmdb-dotmore-icon-typo ">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-[.7rem] font-semibold px-5">Documents</div>
+          <span className="text-[.7rem] font-semibold px-5">Documents</span>
           <p>640 Files</p>
         </div>
-        <div className="bg-[#fedfcc] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
-          <div className="flex justify-between items-center px-5">
-            <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
+        <div className="dbmb-small-card-container-bg3  dbmb-small-card-container">
+          <div className="dbmb-small-card-icon-container">
+            <div className=" dbmb-small-card-icon">
               <AiOutlineFolder size={12} />
             </div>
             <div className="flex flex-col justify-center items-center">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="text-[1.2rem] font-bold bmdb-dotmore-icon-typo ">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-[.7rem] font-semibold px-5">Documents</div>
+          <span className="text-[.7rem] font-semibold px-5">Documents</span>
           <p>640 Files</p>
         </div>
       </div>
-      <div className="px-12 pb-3 pt-2">
+      <div className="dbmb-seemore-wrapper">
         <div className="dbmb-subt-between  ">
           <div className="dbmb-subt-text ">Files</div>
-          <div className="text-[#ff8130] underline flex items-center w-[4.2rem] py-1 rounded-md justify-center font-semibold text-sm gap-2 ">
-            See More
-          </div>
+          <div className=" dbmb-seemore-text ">See More</div>
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 mx-12 text-[.8rem]">
-        <div className="flex justify-between">
-          <div className="w-1/3 flex gap-2 items-center ">
+      <div className="flex flex-col gap-3 mx-12 text-[.8rem] dbmb-files-sec-container">
+        <div className=" dbmb-files-sec-title-container ">
+          <div className="w-1/3 dbmb-file-w-13   dbmb-files-title ">
             <div>Name</div>
             <BsArrowUpShort size={18} />
           </div>
-          <div className="w-1/5 flex gap-2 items-center ">
+          <div className=" dbmb-file-w-15  dbmb-files-title ">
             <div>Size</div>
             <BsArrowUpShort size={18} />
           </div>
-          <div className="w-1/4 flex gap-2 items-center ">Folder</div>
-          <div className="w-1/4 flex gap-2 items-center ">
+          <div className=" dbmb-file-w-14  dbmb-files-title ">Folder</div>
+          <div className=" dbmb-file-w-14 dbmb-files-title ">
             <div>Last Modified</div> <BsArrowUpShort size={18} />
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="flex items-center gap-4 w-1/3">
-            <div className="w-[28px] h-[28px] rounded-full bg-blue-400 flex justify-center items-center text-sm">
+        <div className="dbmb-files-sec-title-container">
+          <div className="flex items-center gap-4 dbmb-file-icon-container w-1/3 dbmb-file-w-13">
+            <div className=" dbmb-file-icon">
               <AiOutlineFolder size={16} />
             </div>
-            <div className="flex flex-col gap-1 ">
-              <p className="text-[.8rem] font-bold">Learn Animation</p>
+            <div className="flex flex-col gap-1 dbmb-file-sec-text ">
+              <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
+                Learn Animation
+              </p>
               <p>Ali Husni</p>
             </div>
           </div>
-          <div className="w-1/5 ">34MB </div>
-          <div className="w-1/4 ">Documents</div>
-          <div className="w-1/4 ">
+          <div className=" dbmb-file-w-15 ">34MB </div>
+          <div className=" dbmb-file-w-14 ">Documents</div>
+          <div className=" dbmb-file-w-14 ">
             <div>January, 10, 2023</div>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="flex items-center gap-4 w-1/3">
-            <div className="w-[28px] h-[28px] rounded-full bg-blue-400 flex justify-center items-center text-sm">
+        <div className="dbmb-files-sec-title-container">
+          <div className="flex items-center gap-4 dbmb-file-icon-container w-1/3 dbmb-file-w-13">
+            <div className=" dbmb-file-icon">
               <AiOutlineFolder size={16} />
             </div>
-            <div className="flex flex-col gap-1 ">
-              <p className="text-[.8rem] font-bold">Learn Animation</p>
+            <div className="flex flex-col gap-1 dbmb-file-sec-text ">
+              <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
+                Learn Animation
+              </p>
               <p>Ali Husni</p>
             </div>
           </div>
-          <div className="w-1/5 ">34MB </div>
-          <div className="w-1/4 ">Documents</div>
-          <div className="w-1/4 ">
+          <div className=" dbmb-file-w-15 ">34MB </div>
+          <div className=" dbmb-file-w-14 ">Documents</div>
+          <div className=" dbmb-file-w-14 ">
             <div>January, 10, 2023</div>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="flex items-center gap-4 w-1/3">
-            <div className="w-[28px] h-[28px] rounded-full bg-blue-400 flex justify-center items-center text-sm">
+        <div className="dbmb-files-sec-title-container">
+          <div className="flex items-center gap-4 dbmb-file-icon-container w-1/3 dbmb-file-w-13 ">
+            <div className=" dbmb-file-icon">
               <AiOutlineFolder size={16} />
             </div>
-            <div className="flex flex-col gap-1 ">
-              <p className="text-[.8rem] font-bold">Learn Animation</p>
+            <div className="flex flex-col gap-1 dbmb-file-sec-text ">
+              <p className="text-[.8rem] font-bold dbmb-file-sec-text-typo">
+                Learn Animation
+              </p>
               <p>Ali Husni</p>
             </div>
           </div>
-          <div className="w-1/5 ">34MB </div>
-          <div className="w-1/4 ">Documents</div>
-          <div className="w-1/4 ">
+          <div className=" dbmb-file-w-15 ">34MB </div>
+          <div className=" dbmb-file-w-14 ">Documents</div>
+          <div className=" dbmb-file-w-14 ">
             <div>January, 10, 2023</div>
           </div>
         </div>
