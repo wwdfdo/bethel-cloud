@@ -71,22 +71,22 @@ const BethelMainDashBoard = () => {
       <div className="bmdb-subt-dashb-view-more">
         <div className="bmdb-subt-dashb-view-card-bg1 bmdb-subt-dashb-view-card">
           <div className="bmdb-subt-dashb-view-card-icon-wraper">
-            <div className="w-[30px] h-[32px] rounded-full bg-white flex justify-center items-center">
+            <div className=" bmdb-subt-dashb-view-card-icon">
               <AiOutlineFolder size={18} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="more-icon">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-sm px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
-          <div className="flex flex-col  gap-2 px-5">
-            <div className="flex  w-full rounded-xl  shadow-md bg-white  ">
-              <div className="w-1/2 bg-[#7ca0fc] rounded-xl py-[.4rem] px-2"></div>
+          <h4>Documents</h4>
+          <p>640 Files</p>
+          <div className="bmdb-percentage-meter-wrapper">
+            <div className=" bmdb-percentage-bar-wrapper  ">
+              <div className="bg-[#7ca0fc] bmdb-percentage-bar"></div>
             </div>
             <div className="flex justify-between text-[.8rem]">
               <div className=" ">Storage</div>
@@ -101,25 +101,25 @@ const BethelMainDashBoard = () => {
         </div>
         <div className=" bmdb-subt-dashb-view-card-bg2 bmdb-subt-dashb-view-card">
           <div className="bmdb-subt-dashb-view-card-icon-wraper">
-            <div className="w-[30px] h-[32px] rounded-full bg-white flex justify-center items-center">
+            <div className=" bmdb-subt-dashb-view-card-icon">
               <BiImage size={18} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="more-icon">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-sm px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
-          <div className="flex flex-col  gap-2 px-5">
-            <div className="flex  w-full rounded-xl  shadow-md bg-white  ">
-              <div className="w-1/2 bg-[#fd7ea1] rounded-xl py-[.4rem] px-2"></div>
+          <h4>Documents</h4>
+          <p>640 Files</p>
+          <div className="bmdb-percentage-meter-wrapper">
+            <div className=" bmdb-percentage-bar-wrapper  ">
+              <div className="bg-[#fd7ea1] bmdb-percentage-bar"></div>
             </div>
             <div className="flex justify-between text-[.8rem]">
-              <div className=" ">Storage</div>
+              <div>Storage</div>
               <div>69%</div>
             </div>
           </div>
@@ -131,22 +131,22 @@ const BethelMainDashBoard = () => {
         </div>
         <div className=" bmdb-subt-dashb-view-card-bg3 bmdb-subt-dashb-view-card">
           <div className="bmdb-subt-dashb-view-card-icon-wraper">
-            <div className="w-[30px] h-[32px] rounded-full bg-white flex justify-center items-center">
+            <div className=" bmdb-subt-dashb-view-card-icon">
               <AiOutlinePlayCircle si18={20} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
-              <div className="text-[1.2rem] font-bold ">
+              <div className="more-icon">
                 {" "}
                 <FiMoreHorizontal />
               </div>
             </div>
           </div>
-          <div className="text-sm px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
-          <div className="flex flex-col  gap-2 px-5">
-            <div className="flex  w-full rounded-xl  shadow-md bg-white  ">
-              <div className="w-1/2 bg-[#9779dc] rounded-xl py-[.4rem] px-2"></div>
+          <h4>Documents</h4>
+          <p>640 Files</p>
+          <div className="bmdb-percentage-meter-wrapper">
+            <div className=" bmdb-percentage-bar-wrapper  ">
+              <div className="bg-[#9779dc] bmdb-percentage-bar"></div>
             </div>
             <div className="flex justify-between text-[.8rem]">
               <div className=" ">Storage</div>
@@ -174,7 +174,7 @@ const BethelMainDashBoard = () => {
             <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
               <AiOutlineFolder size={12} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
               <div className="text-[1.2rem] font-bold ">
                 {" "}
@@ -183,14 +183,14 @@ const BethelMainDashBoard = () => {
             </div>
           </div>
           <div className="text-[.7rem] font-semibold px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
+          <p>640 Files</p>
         </div>
         <div className="bg-[#e6e0f6] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
           <div className="flex justify-between items-center px-5">
             <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
               <AiOutlineFolder size={12} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
               <div className="text-[1.2rem] font-bold ">
                 {" "}
@@ -199,14 +199,14 @@ const BethelMainDashBoard = () => {
             </div>
           </div>
           <div className="text-[.7rem] font-semibold px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
+          <p>640 Files</p>
         </div>
         <div className="bg-[#ffe0e8] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
           <div className="flex justify-between items-center px-5">
             <div className="w-[24px] h-[24px] rounded-full bg-white flex justify-center items-center">
               <AiOutlineFolder size={12} />
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="bmdb-subt-dashb-more-icon">
               {/* <img className="w-5 h-5 rounded-full" src={spain} alt="" /> */}
               <div className="text-[1.2rem] font-bold ">
                 {" "}
@@ -215,7 +215,7 @@ const BethelMainDashBoard = () => {
             </div>
           </div>
           <div className="text-[.7rem] font-semibold px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
+          <p>640 Files</p>
         </div>
         <div className="bg-[#fedfcc] gap-2 w-[24%] flex flex-col  pt-3 pb-3 rounded-3xl">
           <div className="flex justify-between items-center px-5">
@@ -231,7 +231,7 @@ const BethelMainDashBoard = () => {
             </div>
           </div>
           <div className="text-[.7rem] font-semibold px-5">Documents</div>
-          <p className="text-[1.1rem] font-bold px-5">640 Files</p>
+          <p>640 Files</p>
         </div>
       </div>
       <div className="px-12 pb-3 pt-2">

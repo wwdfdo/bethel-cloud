@@ -39,18 +39,6 @@ const BethelCloud = () => {
             </div>
             <div className="bc-menuitem-wrapper">
               <div className="bc-menuitem-icon">
-                <BsEnvelope size={20} />
-              </div>
-              <p className="bc-menuitem-text">Overview</p>
-            </div>{" "}
-            <div className="bc-menuitem-wrapper">
-              <div className="bc-menuitem-icon">
-                <ImFilesEmpty size={20} />
-              </div>
-              <p className="bc-menuitem-text">Favorites</p>
-            </div>
-            <div className="bc-menuitem-wrapper">
-              <div className="bc-menuitem-icon">
                 <TbFileInvoice size={20} />
               </div>
               <p className="bc-menuitem-text">Updates</p>

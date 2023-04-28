@@ -121,3 +121,70 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.bmdb-subt-dashb-view-card-icon {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  width: 30px;
+  height: 32px;
+}
+
+.bmdb-subt-dashb-more-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bmdb-subt-dashb-more-icon .more-icon {
+  font-weight: 700;
+  color: 1.2rem;
+}
+
+.bmdb-subt-dashb-view-card h4 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.bmdb-subt-dashb-view-card p {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-weight: 700;
+  color: 1.1rem;
+}
+
+.bmdb-percentage-meter-wrapper {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bmdb-percentage-bar-wrapper {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bmdb-percentage-bar {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 50%;
+  border-radius: 0.75rem;
+}
+
+.bmdb-percentage-bar-bg1 {
+  background: #7ca0fc;
+}
+.bmdb-percentage-bar-bg2 {
+}
+.bmdb-percentage-bar-bg3 {
+}
