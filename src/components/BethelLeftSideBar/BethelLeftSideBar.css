@@ -1,0 +1,44 @@
+.bls-main {
+  display: flex;
+  padding-top: 1.25rem;
+  padding-bottom: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 8.333333%;
+}
+.bls-first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.bls-logo-text {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.bls-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.bls-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background: #ff8130;
+}
+
+.bls-currency-icons {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
