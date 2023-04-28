@@ -12,7 +12,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { BiImage } from "react-icons/bi";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { BsArrowUpShort } from "react-icons/bs";
-
+import "./BethelMainDashBoard.css";
 const BethelMainDashBoard = () => {
   return (
     <div className=" bmdb-main ">
@@ -86,16 +86,16 @@ const BethelMainDashBoard = () => {
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
-              <div className="bg-[#7ca0fc] bmdb-percentage-bar"></div>
+              <div className="bmdb-percentage-bar-bg1 bmdb-percentage-bar"></div>
             </div>
-            <div className="flex justify-between text-[.8rem]">
+            <div className="bmdb-percentage-bar-text">
               <div className=" ">Storage</div>
               <div>69%</div>
             </div>
           </div>
-          <hr className="bg-black w-full border-slate-500 border-[0.05rem]" />
-          <div className="flex justify-between items-center px-5 pt-1  ">
-            <div className="text-[.9rem] font-semibold">View</div>
+          <hr />
+          <div className=" bmdb-percentage-view-button  ">
+            <p>View</p>
             <HiOutlineArrowNarrowRight />
           </div>
         </div>
@@ -116,16 +116,16 @@ const BethelMainDashBoard = () => {
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
-              <div className="bg-[#fd7ea1] bmdb-percentage-bar"></div>
+              <div className="bmdb-percentage-bar-bg2 bmdb-percentage-bar"></div>
             </div>
-            <div className="flex justify-between text-[.8rem]">
+            <div className="bmdb-percentage-bar-text">
               <div>Storage</div>
               <div>69%</div>
             </div>
           </div>
-          <hr className="bg-black w-full border-slate-500 border-[0.05rem]" />
-          <div className="flex justify-between items-center px-5 pt-1  ">
-            <div className="text-[.9rem] font-semibold">View</div>
+          <hr />
+          <div className=" bmdb-percentage-view-button  ">
+            <p>View</p>
             <HiOutlineArrowNarrowRight />
           </div>
         </div>
@@ -146,24 +146,24 @@ const BethelMainDashBoard = () => {
           <p>640 Files</p>
           <div className="bmdb-percentage-meter-wrapper">
             <div className=" bmdb-percentage-bar-wrapper  ">
-              <div className="bg-[#9779dc] bmdb-percentage-bar"></div>
+              <div className="bmdb-percentage-bar-bg3 bmdb-percentage-bar"></div>
             </div>
-            <div className="flex justify-between text-[.8rem]">
+            <div className="bmdb-percentage-bar-text">
               <div className=" ">Storage</div>
               <div>69%</div>
             </div>
           </div>
-          <hr className="bg-black w-full border-slate-500 border-[0.05rem]" />
-          <div className="flex justify-between items-center px-5 pt-1  ">
-            <div className="text-[.9rem] font-semibold">View</div>
+          <hr />
+          <div className=" bmdb-percentage-view-button  ">
+            <p>View</p>
             <HiOutlineArrowNarrowRight />
           </div>
         </div>
       </div>
-      <div className="px-12 pb-3 pt-2">
-        <div className="dbmb-subt-between  ">
-          <div className="dbmb-subt-text ">Folders</div>
-          <div className="text-[#ff8130] underline flex items-center w-[4.2rem] py-1 rounded-md justify-center font-semibold text-sm gap-2 ">
+      <div className=" bmdb-seemore-sec">
+        <div className="bmdb-subt-between  ">
+          <div className="bmdb-subt-text ">Folders</div>
+          <div className="text-[#ff8130] underline flex items-center w-[4.2rem] py-1 rounded-md justify-center font-semibold text-sm gap-2  ">
             See More
           </div>
         </div>
