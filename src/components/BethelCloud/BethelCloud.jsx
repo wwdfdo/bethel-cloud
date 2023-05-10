@@ -11,6 +11,7 @@ import { FiSettings } from "react-icons/fi";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { TbLogout } from "react-icons/tb";
 import "./BehtelCloud.css";
+import { NavLink } from "react-router-dom";
 
 const BethelCloud = () => {
   return (
@@ -23,13 +24,17 @@ const BethelCloud = () => {
               <div className="bc-menuitem-icon">
                 <RiDashboard3Line size={20} />
               </div>
-              <p className="bc-menuitem-text">Dashboard</p>
+              <NavLink to="/">
+                <p className="bc-menuitem-text">Dashboard</p>{" "}
+              </NavLink>
             </div>
             <div className="bc-menuitem-wrapper">
               <div className="bc-menuitem-icon">
                 <BsBoxSeam size={20} />
               </div>
-              <p className="bc-menuitem-text">My Cloud</p>
+              <NavLink to="/mycloud">
+                <p className="bc-menuitem-text">My Cloud</p>{" "}
+              </NavLink>
             </div>
             <div className="bc-menuitem-wrapper">
               <div className="bc-menuitem-icon">

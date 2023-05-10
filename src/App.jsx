@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
 import BethelCloud from "./components/BethelCloud/BethelCloud";
 import BethelLeftSideBar from "./components/BethelLeftSideBar/BethelLeftSideBar";
@@ -9,7 +10,8 @@ function App() {
     <div className="container">
       <BethelLeftSideBar />
       <BethelCloud />
-      <BethelMainDashBoard />
+      <Outlet />
+      {/* <BethelMainDashBoard /> */}
       <BethelRightSideBar />
     </div>
   );
