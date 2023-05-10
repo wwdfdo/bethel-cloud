@@ -56,5 +56,9 @@
 
 .bc-menuitem-text {
   font-weight: 600;
-  color: 1rem;
+  color: white;
+}
+
+a.active .bc-menuitem-text {
+  color: red;
 }

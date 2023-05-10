@@ -33,7 +33,7 @@ const BethelCloud = () => {
                 <BsBoxSeam size={20} />
               </div>
               <NavLink to="/mycloud">
-                <p className="bc-menuitem-text">My Cloud</p>{" "}
+                <p className="bc-menuitem-text">Wallet</p>{" "}
               </NavLink>
             </div>
             <div className="bc-menuitem-wrapper">

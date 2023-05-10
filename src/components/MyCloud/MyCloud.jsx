@@ -51,7 +51,7 @@ const BethelMainDashBoard = () => {
       </div>
       <div className="bmdb-subt-dashb-wrapper">
         <div className="dbmb-subt-between ">
-          <h3 className="dbmb-subt-text ">Mycloud</h3>
+          <h3 className="dbmb-subt-text ">Wallet</h3>
           <div className="bmdb-subt-dashb-icon ">
             <BiPlusCircle size={18} />
             <div>ADD</div>
