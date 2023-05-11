@@ -1,7 +1,111 @@
 .bwlt-main {
   width: 50%;
   display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.bwlt-wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.bwlt-main-card {
+  position: relative;
+  background-color: #162122;
+  height: 20vh;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+
+.bwlt-welcome-text {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.bwlt-card-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.0825rem;
+}
+
+.bwlt-upgrade-btn {
+  width: 20%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.bwlt-bitcoin-icon {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  color: red;
+}
+
+.bwlt-smcards-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.bwlt-smcard {
+  position: relative;
+  width: 32%;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.bwlt-smcard p {
+  text-align: center;
+  line-height: 0;
+}
+
+.bwlt-smcard1 {
+  background-color: #c2fa77;
+}
+.bwlt-smcard2 {
+  background-color: #c1c0ff;
+}
+.bwlt-smcard3 {
+  background-color: #162122;
+}
+.bwlt-smcard3 p {
+  color: white;
+}
+
+.bwlt-smcards-price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.bwlt-smcard-icon {
+  position: absolute;
+  top: -25px;
+  left: 40%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4em;
+
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.bwlt-smcard1 .bwlt-smcard-icon {
+  background-color: #c2fa77;
+}
+.bwlt-smcard2 .bwlt-smcard-icon {
+  background-color: #c1c0ff;
+}
+.bwlt-smcard3 .bwlt-smcard-icon {
+  background-color: #162122;
 }
