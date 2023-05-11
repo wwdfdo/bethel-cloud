@@ -40,13 +40,17 @@ const BethelCloud = () => {
               <div className="bc-menuitem-icon">
                 <CgNotes size={20} />
               </div>
-              <p className="bc-menuitem-text">General</p>
+              <NavLink to="/bethelgeneral">
+                <p className="bc-menuitem-text">General</p>
+              </NavLink>
             </div>
             <div className="bc-menuitem-wrapper">
               <div className="bc-menuitem-icon">
                 <TbFileInvoice size={20} />
               </div>
-              <p className="bc-menuitem-text">Updates</p>
+              <NavLink to="/bethelupdate">
+                <p className="bc-menuitem-text">Updates</p>
+              </NavLink>
             </div>{" "}
           </div>
         </div>

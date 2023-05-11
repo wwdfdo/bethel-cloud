@@ -11,12 +11,16 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import BethelGeneral from "./components/BethelGeneral/BethelGeneral";
+import BethelUpdates from "./components/BethelUpdates/BethelUpdates";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<BethelMainDashBoard />} />
       <Route path="mycloud" element={<MyCloud />} />
+      <Route path="bethelgeneral" element={<BethelGeneral />} />
+      <Route path="bethelupdate" element={<BethelUpdates />} />
     </Route>
   )
 );
