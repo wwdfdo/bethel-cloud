@@ -5,6 +5,7 @@ import { BiEnvelopeOpen } from "react-icons/bi";
 import { BsBriefcase } from "react-icons/bs";
 import { FaSignal } from "react-icons/fa";
 import "./MyCloud.css";
+import RechartLine from "../RechartLine/RechartLine";
 
 const Mycloud = () => {
   return (
@@ -48,6 +49,17 @@ const Mycloud = () => {
             {" "}
             <FaSignal size={24} color="#fff" />
           </div>
+        </div>
+      </div>
+
+      <div className="bwlt-linechart-wrapper">
+        <div className="bwlt-linechart-heading">
+          BETHEL TRANSACTION HISTORY LAST 14 DAYS
+        </div>
+
+        <div className="flex justify-start ">
+          {/* <Linechart /> */}
+          <RechartLine />
         </div>
       </div>
     </div>

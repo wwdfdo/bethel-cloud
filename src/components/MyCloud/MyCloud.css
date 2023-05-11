@@ -83,7 +83,7 @@
 }
 
 .bwlt-smcards-price {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -108,4 +108,18 @@
 }
 .bwlt-smcard3 .bwlt-smcard-icon {
   background-color: #162122;
+}
+
+.bwlt-linechart-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-weight: 600;
+  background-color: #ffff0091;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bwlt-linechart-heading {
+  margin-bottom: 20px;
 }
