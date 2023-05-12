@@ -71,12 +71,15 @@
 
 .bwlt-smcard1 {
   background-color: #c2fa77;
+  opacity: 0.8;
 }
 .bwlt-smcard2 {
   background-color: #c1c0ff;
+  opacity: 0.8;
 }
 .bwlt-smcard3 {
   background-color: #162122;
+  opacity: 0.8;
 }
 .bwlt-smcard3 p {
   color: white;
@@ -115,7 +118,7 @@
   margin: 0 auto;
   margin-top: 25px;
   font-weight: 600;
-  background-color: #ffff0091;
+  background-color: #fedfcc;
   padding: 20px;
   border-radius: 20px;
 }
