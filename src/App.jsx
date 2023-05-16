@@ -12,7 +12,7 @@ function App() {
       <BethelCloud />
       <Outlet />
       {/* <BethelMainDashBoard /> */}
-      <BethelRightSideBar />
+      {/* <BethelRightSideBar /> */}
     </div>
   );
 }
